@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> Voidline </title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer ></script>
+  </head>
+  
+  <body>
+      <div class="game_area"> <!-- class = "game" -->
+          <h1 id="voidline"> Voidline </h1> <!-- id = "void" -->
+          <div class="display">
+              <div id="game_display" class="game_display">
+                  <canvas id="canvas" width="750" height="1500"></canvas>
+              </div>
+              <div class="statistics">
+                <canvas id="statistics" width="440" height="1500"></canvas>
+              </div>
+          </div>
+          
+          <div class="menu">
+              <button id="menu">M</button>
+          </div>
+          
+          <div class="control">
+              <div class="left-right">
+                  <button id="le" class="button round"></button> <!-- left -->
+              </div>
+              <div class="up-down">
+                  <button id="up" class="button round"></button>
+                  <button id="dw" class="button round"></button>
+              </div>
+              <div class="left-right">
+                  <button id="ri" class="button round"></button>
+              </div>
+          </div>
+      </div>
+  </body>
+  <footer>
+      <p id="currentTime"></p>
+  </footer>
+</html>

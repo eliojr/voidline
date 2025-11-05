@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{ /* Vai aplicar esse estilo a todos os elementos da página*/
+    margin: 0px; /* Margem externa, as 4 com 0px */
+    font-family: "Poppins"; /* Aplica a fonte a todos os elementos de texto da página */
+    color: blue; /*white*/
+    user-select: none;
+}
+body{ /**/
+    min-height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    flex-direction: column; /* Trata o body*/
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: top; /* Centraliza verticalmente */
+    background: linear-gradient(180deg, #003636, #000, #062024); /* Cria um gradente linear */
+}
+.game_area{
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    position: relative;
+    flex-direction: column; /* Trata o body*/
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
+    margin: 2vh;
+    border: 0.5vh solid #00ffcc;
+    border-radius: 2vh;
+    box-shadow: 0 0 25px #00ffaa;
+    background: radial-gradient(circle at center, #003333, #000); /* Adiciona um gradiente radial */
+}
+.display{
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    position: relative;
+    align-items: top; /* Centraliza horizontalmente */
+}
+.statistics{
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    position: relative;
+    align-items: top; /* Centraliza horizontalmente */
+    height: 50vh;
+    margin-right: 1vh;
+}
+.button{
+    border-radius: 5vh;
+}
+.round{
+    width: 10vh;
+    aspect-ratio: 1;
+    background: blue;
+}
+.menu{
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    position: relative;
+    align-items: top; /* Centraliza horizontalmente */
+    justify-content: left; /* centraliza verticalmente */
+    width: 100%;
+    
+}
+#menu{
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vh;
+    aspect-ratio: 1;
+    background: white;
+    font-size: 3vh;
+    margin-left: 3vh;
+    z-index: 10;
+}
+.control{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: -5vh;
+    margin-bottom: 1vh;
+}
+.left-right{
+    display: flex; /* Ativa o flexbox e permite que os elementos internos sejam arranjados livremente */
+    position: relative;
+    align-items: center; /* Centraliza horizontalmente */
+}
+.up-down{
+    display: flex;
+    flex-direction: column;
+    
+    #up{
+      margin-bottom: 1.5vh;
+    }
+}
+#voidline{
+    font-size: 4vh;  
+    font-weight: bold;
+    background: linear-gradient(180deg, #00ffaa, #00ccff);
+    -webkit-background-clip: text; /* Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;         /* Padrão */
+    color: transparent;
+}
+#canvas{ /**/
+    width: 25vh; /* Largura */
+    margin-left: 1vh;
+    aspect-ratio: 1 / 2;
+    background: rgb(0, 26, 38, 0.3); /**/
+    border: 2px solid rgba(0, 204, 255, 1);
+    
+}
+#statistics{
+    height: 50vh;
+    background: rgb(0, 26, 38, 0.3); /**/
+    border: 2px solid rgba(0, 204, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
